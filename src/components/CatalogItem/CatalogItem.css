@@ -1,0 +1,32 @@
+.card-title {
+    font-family: Monospace;
+    font-size: 30px !important;
+    color: whitesmoke !important;
+    font-weight: bold !important;
+}
+
+.card-content_description {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card_footer {
+    padding-top: 5px !important;
+}
+
+.like-count {
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+.catalog-item {
+    min-width: 250px;
+}
+
+.catalog-item img {
+    height: 300px;
+    object-fit: cover;
+}

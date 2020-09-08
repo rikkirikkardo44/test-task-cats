@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: whitesmoke !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#edit-btn {
+    margin-right: 65px;
+}
+
+#form {
+    padding: 50px 0;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+}
+
+#nest-messages {
+    margin: 0 30px;
 }
