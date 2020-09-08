@@ -1,0 +1,44 @@
+.item-info-page {
+    margin-top: 25px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-info-page_body-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.item-info-page_body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.item-info-page_image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item-info-page_buttons {
+    align-self: center;
+}
+
+.item-info-page_name {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.item-info-page_description{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.item-info-page_like {
+    font-size: 10px;
+}

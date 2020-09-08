@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: whitesmoke !important;
 }
 
 code {
@@ -12,50 +13,16 @@ code {
     monospace;
 }
 
-.px1 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+#edit-btn {
+    margin-right: 65px;
 }
 
-img {
-    width: 100px;
-    height: 300px;
-    object-fit: cover;
+#form {
+    padding: 50px 0;
+    background-color: #FFFFFF;
+    margin-top: 25px;
 }
 
-.like-count {
-    font-size: 10px;
-    padding-bottom: 15px;
-}
-
-.mtx1 {
-    padding-top: 5px !important;
-}
-
-.mtx2 {
-    margin-bottom: 15px !important;
-}
-
-.card-title {
-    font-family: "Comic Sans MS";
-    color: #b2dfdb !important;
-    font-weight: bold !important;
-}
-.mw {
-    min-width: 250px;
-}
-
-.mh {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-
-.fade {
-    position: relative;
-    height: 3.6em;
-    text-overflow: ellipsis;
-    overflow: hidden;
+#nest-messages {
+    margin: 0 30px;
 }
